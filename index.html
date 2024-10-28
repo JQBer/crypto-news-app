@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Новости криптовалют</h1>
+        <p>Выберите категорию:</p>
+        <div class="buttons">
+            <button onclick="loadNews('bitcoin')">Bitcoin</button>
+            <button onclick="loadNews('ethereum')">Ethereum</button>
+            <button onclick="loadNews('nft')">NFT</button>
+            <button onclick="loadNews('defi')">DeFi</button>
+        </div>
+        <div id="news-list" class="news-list"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
